@@ -12,6 +12,14 @@ public class UserReq {
     private String name;
     private Integer age;
 
+    public UserReq() {
+    }
+
+    public UserReq(String name, Integer age) {
+        this.name = name;
+        this.age = age;
+    }
+
     public String getName() {
         return name;
     }
